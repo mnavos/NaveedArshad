@@ -18,7 +18,7 @@ class OrderSeeder extends Seeder
         DB::table('orders')->delete();
         $orders = [
             ['id' => 1, 'name' => 'Product A', 'price' => '10', 'user_id'=>'1'],
-            ['id' => 2, 'name' => 'Product B', 'price' => '20', 'user_id'=>'2'],
+            ['id' => 2, 'name' => 'Product B', 'price' => '20', 'user_id'=>'1'],
             ['id' => 3, 'name' => 'Product c', 'price' => '20', 'user_id'=>'1'],
             ['id' => 4, 'name' => 'Product D', 'price' => '15', 'user_id'=>'1'],
         ];
